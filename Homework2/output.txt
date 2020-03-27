@@ -1,0 +1,16 @@
+	url_1	url_2	url_3	url_4	url_5	url_6	url_7	
+url_1	1	
+url_2	0.89	1	
+url_3	2.703	3.0372	1	
+url_4	10.181	11.4397	3.7665	1	
+url_5	4.2292	4.7521	1.5646	0.4154	1	
+url_6	0.2726	0.3063	0.1009	0.0268	0.0645	1	
+url_7	0.1227	0.1379	0.0454	0.0121	0.029	0.4501	1	
+
+The most similar page of url_1 (https://en.wikipedia.org/wiki/Chase_Bank) is: url_4 (https://www.jpmorgan.com/country/US/en/jpmorgan)
+The most similar page of url_2 (https://en.wikipedia.org/wiki/Citibank) is: url_4 (https://www.jpmorgan.com/country/US/en/jpmorgan)
+The most similar page of url_3 (http://bankofamerica.com/) is: url_4 (https://www.jpmorgan.com/country/US/en/jpmorgan)
+The most similar page of url_4 (https://www.jpmorgan.com/country/US/en/jpmorgan) is: url_2 (https://en.wikipedia.org/wiki/Citibank)
+The most similar page of url_5 (https://www.business.rutgers.edu/) is: url_2 (https://en.wikipedia.org/wiki/Citibank)
+The most similar page of url_6 (https://en.wikipedia.org/wiki/Hedge_fund) is: url_7 (https://en.wikipedia.org/wiki/United_States)
+The most similar page of url_7 (https://en.wikipedia.org/wiki/United_States) is: url_6 (https://en.wikipedia.org/wiki/Hedge_fund)

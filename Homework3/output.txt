@@ -1,0 +1,9 @@
+-------------------------------------------------------------
+Account Name: PRUD
+Cash Balance: 1096993668.0
+Real Estate:
+Address: Newark_NJ_1400   Price: 500000.0
+Address: Morris_NJ_1379   Price: 1500000.0
+Stock Portfolios:
+Stock: MSFT   share: 100.0   total cost: 5832.0
+-------------------------------------------------------------

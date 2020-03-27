@@ -1,0 +1,12 @@
+Cp, prudential_1
+Dp, prudential_1, 1000000
+Bs, MSFT, 100, 58.32, prudential_1
+Cp, prudential_2
+Dp, prudential_2, 1000000000
+Br, Newark_NJ_1400, 500000, prudential_2
+Br, Morris_NJ_1379, 1500000, prudential_2
+Wd, prudential_2, 1000000
+Xf, prudential_2, prudential_1, 100.00
+Xs, prudential_1, prudential_2, MSFT, 20
+Xr, prudential_2, prudential_1, Morris_NJ_1379
+Mg, prudential_1, prudential_2, PRUD 
