@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!-- Fin-model.html -->
+<!-- Form using a variety of components. -->
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>More Forms</title>
+   </head>
+
+   <body>
+      <h1>Python Classificaction</h1>
+      <p>Please fill out this form to perform classification</p>
+
+      <form method = "post" action = "results">
+
+	<table>
+         <tr> <td colspan = 2> Tell us about yourself </td></tr>
+         <tr><td>Your first name: </td><td>
+               <input name = "fname" type = "text" size = "25">
+            </td></tr>
+ 
+         <tr><td>Your last name: </td><td>
+               <input name = "lname" type = "text" size = "25">
+            </td></tr>
+ 
+
+         <tr><td>Your E-mail Address: </td><td>
+            <input name = "email" type = "text"  size = "25">
+         </td></tr>              
+
+         <tr><td>Retype Your E-mail Address: </td><td>
+            <input name = "retypeemail" type = "text"  size = "25">
+         </td></tr>              
+        </table>
+         <p>
+            <strong>Choose estimators you want to use</strong><br>
+
+            <label>
+               <input name = "estimator" type = "checkbox" 
+                  value = "KneighborClassifier"> K nearest neighbor Classifier 
+            </label>
+	    <br />
+            <label>
+               <input name = "estimator" type = "checkbox" 
+                  value = "SVC">Support Vector Classifier
+            </label><br />
+            <label>
+               <input name = "estimator" type = "checkbox" 
+                  value = "GaussianNB">Gaussian Naive Bayes
+            </label> <br />
+            <label> 
+               <input name = "estimator" type = "checkbox" 
+                  value = "DecisionTreeClassifier">Decision Tree Classifier
+            </label><br />
+            <label>
+               <input name = "estimator" type = "checkbox" 
+                  value = "MLPClassifier">Multi-Layer Perceptron Classifier
+            </label><br />
+            <label>
+               <input name = "estimator" type = "checkbox" 
+                  value = "SGDClassifier">Stochastic Gradient Descent Classifier
+             </label>
+         </p>
+         <!-- <input type = "radio"> creates a radio -->
+         <!-- button. The difference between radio buttons -->
+         <!-- and checkboxes is that only one radio button -->
+         <!-- in a group can be selected. -->
+         <p>
+            <strong>How do you load your dataset?:</strong><br>
+
+            <label>
+               <input name = "howtoload" type = "radio"
+                   value = "system" checked>
+                Choose data sets from system 
+               <select name = "from_system">
+                  <option selected>fetch_california_housing</option>
+                  <option>fetch_kddcup99</option>
+                  <option>fetch_lfw_people</option>
+                  <option>fetch_20newsgroups</option>
+               </select>
+           </label>
+           <br />
+
+            <label>
+               <input name = "howtoload" type = "radio" 
+                  value = "own"> 
+                Load my own dataset
+                <input name = "mydatasetname" type = "text"  size = "25">
+            </label> 
+         <p>
+            <label>Select K for kFold cross validation
+
+                <!-- the <select> tag presents a drop-down -->
+                <!-- list with choices indicated by the -->
+                <!-- <option> tags -->
+               <select name = "kfold">
+                  <option>15</option>
+                  <option>14</option>
+                  <option>13</option>
+                  <option>12</option>
+                  <option>11</option>
+                  <option selected>10</option>
+                  <option>9</option>
+                  <option>8</option>
+                  <option>7</option>
+                  <option>6</option>
+                  <option>5</option>
+               </select>
+            </label>
+         </p>
+
+         <!-- <textarea> creates a multiline textbox -->
+         <p><label>Any comments:<br>
+            <textarea name = "comments"
+               rows = "4" cols = "36">Enter your comments here.</textarea>
+         </label></p>
+         <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+   </body>
+</html>
